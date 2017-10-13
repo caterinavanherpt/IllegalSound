@@ -1,0 +1,9 @@
+.ourTeam__list {
+	list-style: none;
+	li {
+		display: flex;
+	}
+	li:nth-child(2) {
+		flex-direction: row-reverse;
+	}
+}

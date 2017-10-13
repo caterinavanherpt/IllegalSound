@@ -1,0 +1,58 @@
+{
+  "name": "illegalsound",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "6cc7af3e5b55720bcb6ef68372ce24be",
+      "css": "facebook-official",
+      "code": 62000,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "0fbfb1cd7a847c88ea4c141d0e1bbdb5",
+      "css": "instagram",
+      "code": 62253,
+      "src": "entypo"
+    },
+    {
+      "uid": "7480a298ce334eef70193895e799c3fd",
+      "css": "headphones",
+      "code": 59392,
+      "src": "elusive"
+    },
+    {
+      "uid": "e7ab5637425cce7dd2176302ddaf1c08",
+      "css": "music",
+      "code": 59393,
+      "src": "elusive"
+    },
+    {
+      "uid": "fb3ee9c192c946342e0cdd12f06d7774",
+      "css": "lightbulb",
+      "code": 59394,
+      "src": "linecons"
+    },
+    {
+      "uid": "1e099a876c8a6a83f10c9bafa9886614",
+      "css": "mic",
+      "code": 59395,
+      "src": "entypo"
+    },
+    {
+      "uid": "c91098f07ff0df45b3f8666b72b75801",
+      "css": "phone",
+      "code": 59396,
+      "src": "elusive"
+    },
+    {
+      "uid": "b6ef4443ecc502136135437837d9724b",
+      "css": "mail",
+      "code": 59397,
+      "src": "elusive"
+    }
+  ]
+}

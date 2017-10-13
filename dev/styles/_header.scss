@@ -1,0 +1,99 @@
+.nav {
+	position: fixed;
+	background: white;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+}
+
+.nav__list {
+	height: 60px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.nav__list-item {
+	font-size: 0.9em;
+	padding:10px;
+	letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+	a {
+		text-decoration: none;
+		color: $black;
+	}
+}
+
+.nav__list-item:hover {
+	border-top: 1.5px solid $red;
+}
+
+.nav__list-item:active {
+	border-top: 1.5px solid $red;
+}
+
+.header {
+	border: 1px solid $black;
+	padding: 5px;
+	color: $grey;
+	margin-top: 60px;
+}
+
+.header__wrapper--background {
+	background: $black;
+}
+
+.header__header {
+	padding-top: 70px;
+	padding-left: 100px;
+	h1, h2 {
+		text-transform: uppercase;
+		font-family: $secondaryfont;
+		letter-spacing: 1px;
+	}
+	h2 {
+		font-size: 1.7em;
+		font-weight: 500;
+	}
+}
+
+.header__info-company {
+	color: $red;
+	font-size: 4em;
+	padding-bottom: 20px;
+	font-weight: 700;
+}
+
+.header__info-wrapper {
+	display: flex;
+	padding-bottom: 80px;
+}
+
+.header__logo {
+	text-align: right;
+	padding-right: 50px;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+
+.header__info {
+	p {
+		padding-right: 100px;
+		padding-top: 30px;
+		line-height: 25px;
+		letter-spacing: 1px;
+		font-family: $primaryfont;
+	}
+	a {
+		text-decoration: none;
+		color: $red;
+	}
+}
+
+
+
+

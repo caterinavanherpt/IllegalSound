@@ -1,0 +1,28 @@
+// variables
+$black: #1D1C1A;
+$red: #810319;
+$grey: #b3b3b3;
+
+$primaryfont: 'Montserrat', sans-serif;
+$secondaryfont: 'Raleway', sans-serif;
+
+.wrapper {
+	max-width: 95%;
+	margin: 0 auto;
+}
+
+body {
+	font-family: $primaryfont;
+}
+
+.section__heading {
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1.5px solid $red;
+	text-transform: uppercase;
+	font-weight: 400;
+	display: inline-block;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
