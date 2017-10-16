@@ -1,9 +1,64 @@
+.ourTeam {
+	background: $backgroundGrey;
+}
+
 .ourTeam__list {
 	list-style: none;
-	li {
-		display: flex;
-	}
-	li:nth-child(2) {
-		flex-direction: row-reverse;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+
+.ourTeam__listItem {
+	display: flex;
+	img {
+		max-height: 400px;
+		border: 1px solid $grey;
 	}
 }
+
+.ourTeam__listItem--info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	padding-left: 50px;
+	padding-right: 70px;
+	h3 {
+		text-transform: uppercase;
+		font-size: 1.6em;
+		margin-bottom: 20px;
+		font-weight: 500;
+		letter-spacing: 1px;
+		position: relative;
+	}
+	h3:before {
+		background-color: $red;
+		bottom: -15px;
+		content: "";
+		height: 3px;
+		width: 100%;
+		position: absolute;
+	}
+	p {
+		padding-top: 15px;
+		line-height: 25px;
+	}
+}
+
+.ourTeam__listItem:nth-child(2) {
+	flex-direction: row-reverse;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	.ourTeam__listItem--info {
+		padding-left: 70px;
+		padding-right: 50px;
+		text-align: right;
+		align-items: flex-end;
+		h3 {
+			text-align: right;
+		}
+	}
+}
+
