@@ -249,7 +249,8 @@ body {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
-  font-weight: 600; }
+  font-weight: 600;
+  color: #1D1C1A; }
   .services__list li {
     display: flex;
     flex-direction: column;
@@ -314,23 +315,29 @@ body {
     .ourTeam__listItem:nth-child(2) .ourTeam__listItem--info h3 {
       text-align: right; }
 
+.testimonials {
+  padding-bottom: 60px; }
+
+.testimonials__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start; }
+
+.testimonials__listItem {
+  width: 35%;
+  padding: 30px;
+  margin: 30px;
+  border: 1px solid #b3b3b3;
+  height: auto; }
+
 .referrals {
-  padding-bottom: 90px; }
-  .referrals .section__heading {
-    margin-bottom: 30px;
-    border: none;
-    padding: 0;
-    position: relative; }
-  .referrals .section__heading:before {
-    background-color: #810319;
-    bottom: -10px;
-    content: "";
-    height: 3px;
-    width: 100%;
-    position: absolute; }
+  padding-bottom: 120px; }
   .referrals p {
     text-align: center;
-    font-size: 1.1em; }
+    font-size: 1.1em;
+    line-height: 25px; }
 
 .referrals__list {
   list-style: none;
@@ -338,7 +345,7 @@ body {
   flex: 1;
   align-items: center;
   justify-content: space-around;
-  padding-top: 50px; }
+  padding-top: 30px; }
 
 .referrals__logo {
   max-width: 350px;

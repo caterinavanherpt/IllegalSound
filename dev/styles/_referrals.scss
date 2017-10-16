@@ -1,23 +1,23 @@
 .referrals {
-	padding-bottom: 90px;
+	padding-bottom: 120px;
 	.section__heading {
-		margin-bottom: 30px;
-		border: none;
-		padding: 0;
-		position: relative;
+		// margin-bottom: 30px;
+		// border: none;
+		// padding: 0;
+		// position: relative;
 	}
-	.section__heading:before {
-		background-color: $red;
-		bottom: -10px;
-		content: "";
-		height: 3px;
-		width: 100%;
-		position: absolute;
-	}
+	// .section__heading:before {
+	// 	background-color: $red;
+	// 	bottom: -10px;
+	// 	content: "";
+	// 	height: 2px;
+	// 	width: 100%;
+	// 	position: absolute;
+	// }
 	p {
 		text-align: center;
 		font-size: 1.1em;
-		// letter-spacing: 1px;
+		line-height: 25px;
 	}
 }
 
@@ -27,7 +27,7 @@
 	flex: 1;
 	align-items: center;
 	justify-content: space-around;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 .referrals__logo {
