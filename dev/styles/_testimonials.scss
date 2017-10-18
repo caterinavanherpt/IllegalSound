@@ -7,7 +7,8 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-content: flex-start;
+	align-items: flex-start;
+	flex-flow: row wrap;
 }
 
 .testimonials__listItem {
@@ -15,5 +16,24 @@
 	padding: 30px;
 	margin: 30px;
 	border: 1px solid $grey;
-	height: auto;
+}
+
+.testimonials__listItem-event {
+	transform: translateY(-40px);
+	background: white;
+	display: inline-block;
+	padding: 0 10px; 
+	font-size: 1.1em
+}
+
+.testimonials__listItem-name {
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1.3em;
+	padding-bottom: 5px;
+}
+
+.testimonials__listItem-quote {
+	margin: 25px 15px 15px 15px;
+	line-height: 1.5;
 }

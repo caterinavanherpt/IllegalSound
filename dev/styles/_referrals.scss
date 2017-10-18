@@ -1,37 +1,33 @@
 .referrals {
 	padding-bottom: 120px;
-	.section__heading {
-		// margin-bottom: 30px;
-		// border: none;
-		// padding: 0;
-		// position: relative;
-	}
-	// .section__heading:before {
-	// 	background-color: $red;
-	// 	bottom: -10px;
-	// 	content: "";
-	// 	height: 2px;
-	// 	width: 100%;
-	// 	position: absolute;
-	// }
+	background: $backgroundGrey;
 	p {
 		text-align: center;
-		font-size: 1.1em;
-		line-height: 25px;
+		line-height: 1.5;
+		max-width: 600px;
+		position: relative;
+		left: 50%;
+		transform: translateX(-50%);
 	}
 }
 
 .referrals__list {
 	list-style: none;
+	width: 80%;
+	margin: 0 auto;
 	display: flex;
-	flex: 1;
+	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
-	padding-top: 30px;
+	padding-top: 60px;
+}
+
+.referrals__listItem {
+	padding: 15px 30px;
 }
 
 .referrals__logo {
-	max-width: 350px;
+	max-width: 300px;
 	height: auto;
 	transition: 0.2s ease-in;
 }

@@ -1,6 +1,6 @@
 // variables
 $black: #1D1C1A;
-$red: #810319;
+$red: #af0825;
 $grey: #b3b3b3;
 $backgroundGrey: rgba(179, 179, 179, 0.15);
 
@@ -17,17 +17,16 @@ body {
 }
 
 .section__heading {
-	padding: 5px 10px;
-	margin-bottom: 20px;
-	border: 1.5px solid $black;
+	padding: 10px 0;
+	margin: 70px 0;
+	border-bottom: 1.5px solid $red;
 	text-transform: uppercase;
-	font-weight: 500;
+	font-weight: 600;
 	display: inline-block;
 	position: relative;
 	left: 50%;
 	transform: translateX(-50%);
-	font-size: 1.7em;
+	font-size: 1.8em;
 	letter-spacing: 1px;
 	font-family: $secondaryfont;
-	margin-top: 60px;
 }
