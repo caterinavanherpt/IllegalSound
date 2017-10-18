@@ -145,8 +145,8 @@ body {
 
 .section__heading {
   padding: 10px 0;
-  margin: 70px 0;
-  border-bottom: 1.5px solid #af0825;
+  margin: 70px 0 40px 0;
+  border-bottom: 1.5px solid #96152b;
   text-transform: uppercase;
   font-weight: 600;
   display: inline-block;
@@ -184,10 +184,10 @@ body {
     color: #1D1C1A; }
 
 .nav__list-item:hover {
-  border-top: 1.5px solid #af0825; }
+  border-top: 1.5px solid #96152b; }
 
 .nav__list-item:active {
-  border-top: 1.5px solid #af0825; }
+  border-top: 1.5px solid #96152b; }
 
 .header {
   border: 1px solid #1D1C1A;
@@ -213,7 +213,7 @@ body {
     font-weight: 500; }
 
 .header__info-company {
-  color: #af0825;
+  color: #96152b;
   font-size: 4em;
   padding-bottom: 20px;
   font-weight: 700; }
@@ -237,7 +237,7 @@ body {
 
 .header__info a {
   text-decoration: none;
-  color: #af0825; }
+  color: #96152b; }
 
 .header__info a:hover {
   text-decoration: underline; }
@@ -291,7 +291,7 @@ body {
     letter-spacing: 1px;
     position: relative; }
   .ourTeam__listItem--info h3:before {
-    background-color: #af0825;
+    background-color: #96152b;
     bottom: -15px;
     content: "";
     height: 3px;
@@ -314,21 +314,25 @@ body {
       text-align: right; }
 
 .testimonials {
-  padding-bottom: 60px; }
+  padding-bottom: 100px; }
 
 .testimonials__list {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  flex-flow: row wrap; }
+  align-items: center;
+  flex-direction: row-reverse; }
 
 .testimonials__listItem {
-  width: 35%;
-  padding: 30px;
+  width: 580px;
+  padding: 10px;
   margin: 30px;
-  border: 1px solid #b3b3b3; }
+  border: 1px solid #1D1C1A; }
+
+.testimonials__listItem-wrapper {
+  background: #b3b3b3;
+  padding: 15px; }
 
 .testimonials__listItem-event {
   transform: translateY(-40px);
@@ -348,33 +352,34 @@ body {
   line-height: 1.5; }
 
 .referrals {
-  padding-bottom: 120px;
-  background: rgba(179, 179, 179, 0.15); }
+  padding-bottom: 120px; }
   .referrals p {
     text-align: center;
     line-height: 1.5;
     max-width: 600px;
     position: relative;
     left: 50%;
-    transform: translateX(-50%); }
+    transform: translateX(-50%);
+    font-style: italic; }
 
 .referrals__list {
   list-style: none;
-  width: 80%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-around;
-  padding-top: 60px; }
+  justify-content: space-around; }
 
 .referrals__listItem {
-  padding: 15px 30px; }
+  padding: 20px 20px; }
 
 .referrals__logo {
-  max-width: 300px;
+  max-width: 350px;
   height: auto;
   transition: 0.2s ease-in; }
 
 .referrals__logo:hover {
   transform: scale(1.3); }
+
+.contact .section__heading {
+  margin-bottom: 30px; }

@@ -1,5 +1,5 @@
 .testimonials {
-	padding-bottom: 60px;
+	padding-bottom: 100px;
 }
 
 .testimonials__list {
@@ -7,15 +7,20 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	align-items: flex-start;
-	flex-flow: row wrap;
+	align-items: center;
+	flex-direction: row-reverse;
 }
 
 .testimonials__listItem {
-	width: 35%;
-	padding: 30px;
+	width: 580px;
+	padding: 10px;
 	margin: 30px;
-	border: 1px solid $grey;
+	border: 1px solid $black;
+}
+
+.testimonials__listItem-wrapper {
+	background: $grey;
+	padding: 15px;
 }
 
 .testimonials__listItem-event {
