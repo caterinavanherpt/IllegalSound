@@ -1,32 +1,30 @@
-.testimonials {
-	padding-bottom: 100px;
-}
+// .testimonials {
+// 	height: 1050px;
+// }
 
 .testimonials__list {
 	list-style: none;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-	align-items: center;
-	flex-direction: row-reverse;
+	column-count: 2;
 }
 
 .testimonials__listItem {
-	width: 580px;
 	padding: 10px;
-	margin: 30px;
+	margin: 20px 5px;
 	border: 1px solid $black;
+	break-inside: avoid;
+	display: inline-block;
 }
 
 .testimonials__listItem-wrapper {
-	background: $grey;
+	background: $backgroundGrey;
 	padding: 15px;
 }
 
 .testimonials__listItem-event {
-	transform: translateY(-40px);
+	margin-top: -40px;
 	background: white;
-	display: inline-block;
+	display: block;
+	float: left;
 	padding: 0 10px; 
 	font-size: 1.1em
 }

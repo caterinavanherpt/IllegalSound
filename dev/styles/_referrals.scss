@@ -1,14 +1,30 @@
 .referrals {
-	padding-bottom: 120px;
-	p {
+	margin-bottom: 50px;
+	// border-top: 1px solid $grey;
+	// position: relative;
+	h3 {
 		text-align: center;
 		line-height: 1.5;
 		max-width: 600px;
 		position: relative;
 		left: 50%;
 		transform: translateX(-50%);
-		font-style: italic;
+		padding-bottom: 20px;
+		font-size: 1em;
 	}
+}
+
+.referrals:before, .referrals:after {
+	content: "";
+	position: absolute;
+	width: 75%;
+	left: 50%;
+	transform: translateX(-50%);
+	border-bottom: 1px solid $linebreakGrey;  
+}
+
+.referrals:after {
+	height: 50px;
 }
 
 .referrals__list {
