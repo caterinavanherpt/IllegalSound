@@ -1,3 +1,16 @@
+.services {
+	border: 1px solid $black;
+	padding: 5px;
+	margin-top: 60px;
+}
+
+.services__wrapper--background {
+	background: linear-gradient(180deg, rgba(0,0,0,0.8),rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../../assets/heroAbout.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
 .services__list {
 	list-style: none;
 	display: flex;
@@ -5,7 +18,7 @@
 	align-items: center; 
 	text-transform: uppercase;
 	font-weight: 600;
-	color: $black;
+	color: rgba(179, 179, 179, 0.7);
 	li {
 		display: flex;
 		flex-direction: column;

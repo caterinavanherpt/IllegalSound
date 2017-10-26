@@ -33,13 +33,13 @@
 
 .form__list {
 	list-style: none;
-	input[type=submit] {
+	button {
 		text-transform: uppercase;
 		text-align: center;
 		padding: 5px;
 		width: 100%;
 	}
-	input[type=submit]:hover {
+	button:hover {
 		background: $red;
 	}
 }
