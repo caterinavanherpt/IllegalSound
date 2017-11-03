@@ -530,3 +530,13 @@ body {
     transition: all 0.2s ease-in; }
   .footer a:hover {
     color: #96152b; }
+
+.privacy__policy {
+  max-width: 60%;
+  margin: 0 auto;
+  padding-bottom: 50px; }
+  .privacy__policy h2 {
+    padding-top: 25px;
+    padding-bottom: 10px; }
+  .privacy__policy p {
+    line-height: 1.5; }
