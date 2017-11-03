@@ -323,7 +323,7 @@ body {
   width: 50%;
   top: 20px;
   left: 200px;
-  border-bottom: 1px solid #96152b; }
+  border-bottom: 1px solid rgba(179, 179, 179, 0.5); }
 
 .ourTeam__listItem:nth-child(2) {
   flex-direction: row-reverse;
@@ -427,44 +427,106 @@ body {
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
-  padding: 10px; }
+  padding: 10px 10px 40px 10px; }
   .contact__wrapper h4 {
     font-size: 1.3em;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     text-transform: uppercase;
     font-weight: 400; }
 
-.contact__form {
+.contact__form--wrapper {
   max-width: 60%; }
 
-.form__list {
+.contact__form ul {
   list-style: none; }
-  .form__list button {
-    text-transform: uppercase;
-    text-align: center;
-    padding: 5px;
-    width: 100%; }
-  .form__list button:hover {
-    background: #96152b; }
 
-.form__list-item {
+.contact__form li {
+  display: block;
   border: 1px solid #c0bebe;
   margin: 20px 0;
   padding: 10px 15px 5px 10px; }
-  .form__list-item label {
-    display: block;
-    float: left;
-    margin-top: -20px;
-    background: white;
-    padding: 2px 5px; }
-  .form__list-item input {
-    display: block;
-    width: 100%;
-    margin: 5px;
-    border: none; }
-  .form__list-item input:focus, .form__list-item textarea:focus {
-    box-shadow: 1px solid #96152b;
-    border: 1px solid #96152b; }
 
-.contact__info p, .contact__info a {
-  padding-bottom: 5px; }
+.contact__form li:last-child {
+  border: none;
+  padding: 0px; }
+
+.contact__form label {
+  display: block;
+  float: left;
+  margin-top: -20px;
+  background: white;
+  height: 14px;
+  padding: 2px 5px; }
+
+.contact__form input, .contact__form select, .contact__form textarea {
+  display: block;
+  width: 100%;
+  margin: 5px;
+  border: none;
+  height: 25px; }
+
+.contact__form input:focus, .contact__form textarea:focus {
+  box-shadow: 1px solid #96152b;
+  border: 1px solid #96152b; }
+
+.contact__form textarea {
+  resize: none;
+  overflow: visible; }
+
+.contact__form button {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+  transition: all 0.2s ease-in;
+  border: 1px solid #c0bebe;
+  background: rgba(179, 179, 179, 0.5); }
+
+.contact__form button:hover {
+  background: #c0bebe; }
+
+.contact__info ul {
+  list-style: none; }
+
+.contact__info a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.2s ease-in; }
+
+.contact__info a:hover {
+  color: #96152b; }
+
+.contact__info i {
+  padding-right: 5px; }
+
+.contactUs__list {
+  padding-bottom: 60px; }
+  .contactUs__list li {
+    padding: 10px 0; }
+  .contactUs__list p, .contactUs__list a, .contactUs__list h5 {
+    line-height: 30px; }
+  .contactUs__list h5 {
+    font-size: 1em; }
+  .contactUs__list a:hover {
+    text-decoration: underline; }
+
+.socialMedia__list li {
+  padding: 5px 0; }
+
+.socialMedia__list i {
+  font-size: 1.3em; }
+
+.footer {
+  background: #c0bebe;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+  .footer a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s ease-in; }
+  .footer a:hover {
+    color: #96152b; }
