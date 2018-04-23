@@ -15,3 +15,14 @@
 		color: $red;
 	}
 }
+
+// responsive styling
+
+@include respond-to("small") {
+	.footer {
+		display: block;
+			p, a {
+				padding: 10px 0;
+			}
+	}
+}

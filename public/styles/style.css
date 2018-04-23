@@ -169,6 +169,14 @@ body {
   top: 0;
   z-index: 1; }
 
+.nav__ham {
+  display: flex; }
+  .nav__ham .hamburger {
+    display: none; }
+
+.hamburger-label {
+  padding-left: 50px; }
+
 .nav__list {
   height: 60px;
   list-style: none;
@@ -246,6 +254,41 @@ body {
 
 .header__info a:hover {
   text-decoration: underline; }
+
+@media (max-width: 950px) {
+  .header__info-wrapper {
+    display: block; }
+  .header__logo {
+    text-align: left; }
+  .header__info p {
+    padding-left: 100px; } }
+
+@media (max-width: 680px) {
+  .nav__ham {
+    display: flex;
+    align-items: center; }
+    .nav__ham .hamburger {
+      display: inline-block;
+      padding-right: 0; }
+  .show {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: flex-start; }
+    .show a {
+      padding: 20px; }
+  .hide {
+    display: none; }
+  .header__header, .header__logo {
+    padding-left: 20px; }
+  .header__info p {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .header__info-company {
+    font-size: 2.5em; } }
+
+@media (max-width: 400px) {
+  .header__info-company {
+    font-size: 2em; } }
 
 .services {
   border: 1px solid #1D1C1A;
@@ -373,6 +416,10 @@ body {
   margin: 25px 15px 15px 15px;
   line-height: 1.5; }
 
+@media (max-width: 680px) {
+  .testimonials__list {
+    column-count: 1; } }
+
 .referrals {
   margin-bottom: 50px; }
   .referrals h3 {
@@ -470,7 +517,7 @@ body {
   border: 1px solid #96152b; }
 
 .contact__form textarea {
-  resize: none;
+  height: 100px;
   overflow: visible; }
 
 .contact__form button {
@@ -516,6 +563,31 @@ body {
 .socialMedia__list i {
   font-size: 1.3em; }
 
+@media (max-width: 680px) {
+  .contact__wrapper {
+    display: block; }
+  .contact__form--wrapper {
+    max-width: 100%; } }
+
+.gallery__layout {
+  column-count: 3;
+  column-gap: 0; }
+
+.gallery__layout-panel {
+  break-inside: avoid; }
+
+.gallery__layout-panel-content {
+  padding: 10px; }
+  .gallery__layout-panel-content img {
+    border: 1px solid rgba(179, 179, 179, 0.5);
+    border-radius: 5px;
+    margin: 10px 0;
+    max-width: 100%; }
+
+@media (max-width: 680px) {
+  .gallery__layout {
+    column-count: 1; } }
+
 .footer {
   background: #c0bebe;
   display: flex;
@@ -530,6 +602,12 @@ body {
     transition: all 0.2s ease-in; }
   .footer a:hover {
     color: #96152b; }
+
+@media (max-width: 680px) {
+  .footer {
+    display: block; }
+    .footer p, .footer a {
+      padding: 10px 0; } }
 
 .privacy__policy {
   max-width: 60%;

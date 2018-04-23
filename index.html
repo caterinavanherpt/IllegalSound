@@ -10,6 +10,7 @@
 	<meta property="og:description" content=" "/>
 	<title>Illegal Sound Entertainment Group</title>
 	<link rel="stylesheet" href="public/styles/style.css">
+	<link rel="stylesheet" href="public/styles/hamburgers.min.css">
 	<!-- link to fontello font (icons) -->
 	<link rel="stylesheet" href="fonts/fontello-128fbd25/css/illegalsound.css">
 	<!-- link to google fonts -->
@@ -17,7 +18,15 @@
 </head>
 <body>
 	<nav class="nav">
-		<ul class="nav__list">
+		<div class="nav__ham">
+			<button class="hamburger hamburger--squeeze" type="button">
+			  <span class="hamburger-box">
+			    <span class="hamburger-inner"></span>
+			    <span class="hamburger-label">Menu</span>
+			  </span>
+			</button> 
+		</div>
+		<ul class="nav__list hide">
 			<li class="nav__list-item home">
 				<a href="index.html">Home</a>
 			</li>
@@ -196,7 +205,6 @@
 		<a href="privacypolicy.html">Privacy Policy</a>
 		<p>Website by <a href="www.caterinavanherpt.com">Caterina van Herpt</a></p>
 	</footer>
-
 	<script src="public/scripts/main.js"></script>
 
 </body>

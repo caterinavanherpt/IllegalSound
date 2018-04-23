@@ -40,3 +40,11 @@
 	margin: 25px 15px 15px 15px;
 	line-height: 1.5;
 }
+
+// responsive styling
+
+@include respond-to("small") {
+	.testimonials__list {
+		column-count: 1;
+	}
+}

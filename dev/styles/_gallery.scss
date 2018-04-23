@@ -1,0 +1,26 @@
+.gallery__layout {
+	column-count: 3;
+	column-gap: 0;
+}
+
+.gallery__layout-panel {
+	break-inside: avoid;
+}
+
+.gallery__layout-panel-content {
+	padding: 10px;
+	img {
+		border: 1px solid $linebreakGrey;
+		border-radius: 5px;
+		margin: 10px 0;
+		max-width: 100%;
+	}
+}
+
+// responsive styling
+
+@include respond-to("small") {
+	.gallery__layout {
+		column-count: 1;
+	}
+}

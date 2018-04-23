@@ -60,7 +60,7 @@
 		border: 1px solid $red;
 	}
 	textarea {
-		resize: none;
+		height: 100px;
 		overflow: visible;
 	}
 	button {
@@ -117,5 +117,17 @@
 	}
 	i {
 		font-size: 1.3em;
+	}
+}
+
+// responsive styling
+
+@include respond-to("small") {
+	.contact__wrapper {
+		display: block;
+	}
+
+	.contact__form--wrapper {
+		max-width: 100%;
 	}
 }
