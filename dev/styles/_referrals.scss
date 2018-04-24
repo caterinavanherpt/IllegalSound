@@ -49,3 +49,15 @@
 .referrals__logo:hover {
 	transform: scale(1.3);
 }
+
+
+// responsive styling
+
+@include respond-to("extrasmall") {
+	.testimonials__listItem-quote {
+		margin: 0;
+	}
+	.referrals__logo {
+		max-width: 250px;
+	}
+}

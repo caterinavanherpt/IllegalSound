@@ -48,3 +48,9 @@
 		column-count: 1;
 	}
 }
+
+@include respond-to("extrasmall") {
+	.testimonials__listItem-quote {
+		margin: 0;
+	}
+}

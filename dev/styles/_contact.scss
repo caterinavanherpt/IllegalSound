@@ -131,3 +131,9 @@
 		max-width: 100%;
 	}
 }
+
+@include respond-to("extrasmall") {
+	.contact__form label {
+		height: auto;
+	}
+}
